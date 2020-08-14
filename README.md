@@ -24,3 +24,5 @@ Approach:
 # Learning Process
 - 14/08/2020
 Found AirMapView[https://airbnb.io/projects/airmapview/]. Can this be added to web dev (react)?
+Well might not. it focuses on Android dev. Lets see if I can scafold the website.
+Let's start with web crawling than.
