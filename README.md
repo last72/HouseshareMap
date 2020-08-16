@@ -28,3 +28,7 @@ Well might not. it focuses on Android dev. Lets see if I can scafold the website
 Let's start with web crawling than.
 Found scrapy. I'll generate ubuntu vm and install. use VMware Workstation 15.5
 I like gui so use [Github Desktop for Linux](https://github.com/shiftkey/desktop}
+Following the Scrapy [Docs](https://docs.scrapy.org/en/latest/intro/install.html)
+
+- 16/08/2020
+Continue with setting up ubuntu env for scrapy
