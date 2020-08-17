@@ -10,10 +10,10 @@ class PostSpider(scrapy.Spider):
     def parse(self, response):
         for post in response.css('a.user-ad-row'):
             yield {
-                'title': post.css('p::text').get(),
-                # 'price': post.css('span.user-ad-price__price::text').get(),
-                # 'location': post.css('div.user-ad-row__location::text').get(),
-                # 'postdate': post.css('p.user-ad-row__age::text').get(),
+                'title': post.css('a.user-ad-row::text').get(),
+                'price': post.css('span.user-ad-price__price::text').get(),
+                'location': post.css('div.user-ad-row__location::text').get(),
+                'postdate': post.css('p.user-ad-row__age::text').get(),
             }
 
 # scrapy shell "https://www.gumtree.com.au/s-bicycles/ashfield-sydney/bicycle/k0c18560l3003437"
